@@ -1,7 +1,321 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="courriernew" content="width=device-width, initial-scale=1" />
+    <title>Amy Rogin</title>
+    <meta name="keywords" content="" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127477026-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-127477026-1");
+    </script>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Maxine Whitely" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://maxine.github.io" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@maxine_whitely" />
+    <meta name="twitter:title" content="Maxine Whitely" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://kit.fontawesome.com/b2dabfb219.js"></script>
+
+    <!-- Fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto+Display:300,500|Roboto+Slab|Niramit" rel="stylesheet"> -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300|Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body>
+    <header>
+      <div id="header">
+        <div id="intro-content">
+          <h1 class="headline">Maxine Whitely</h1>
+          <div class="contact-info-icon-bar">
+            <a class="top-link" href="https://github.com/maxine" target="_blank"
+              ><i class="fab fa-github contact-info-icons" aria-hidden="true" title="GitHub"></i
+            ></a>
+            <a class="top-link" href="https://linkedin.com/in/maxine-whitely" target="_blank"
+              ><i class="fab fa-linkedin-in contact-info-icons" aria-hidden="true" title="LinkedIn"></i
+            ></a>
+            <a class="top-link" href="mailto:mpwhitely@gmail.com" target="_blank"
+              ><i
+                class="far fa-envelope contact-info-icons"
+                aria-hidden="true"
+                title="Email"
+                aria-hidden="true"
+                title="Twitter"
+              ></i
+            ></a>
+            <a class="top-link" href="https://twitter.com/maxine_whitely?lang=en" target="_blank"
+              ><i class="fab fa-twitter contact-info-icons"></i
+            ></a>
+          </div>
+        </div>
+
+        <h2 id="current">Currently</h2>
+
+        <p>
+          I'm a software engineer on Apple's Health team where I'm working to help patients share their
+          personal and clinical health data to their doctors (<a
+            href="https://www.apple.com/healthcare/health-records/"
+            target="_blank"
+            >new feature!</a
+          >).
+        </p>
+        <p>
+          I'm also the founder of a vegan snack company called
+          <a href="https://paradoxpopcorn.com/" target="_blank">Paradox Popcorn</a>, which is currently in
+          development after getting fully funded on
+          <a href="https://www.kickstarter.com/projects/paradoxpopcorn/paradoxpopcorn" target="_blank"
+            >Kickstarter</a
+          >. We're finalizing our recipes, packaging, and go-to-market strategy in preparation to launch this
+          winter.
+        </p>
+        <p>
+          I'm excited about health and health tech, food systems and food innovation, and small/midsize
+          business tooling and entrepreneurship. Feel free to contact me about any of these topics or my
+          previous work below!
+        </p>
+      </div>
+    </header>
+    <h2 id="past">Previously</h2>
+    <main>
+      <div id="main">
+        <div class="timeline-item" date-is="Summer 2020" id="proximal">
+          <div class="position">
+            <h2 class="company"><span class="co-name">Proximal</span> Software Engineering Contractor</h2>
+
+            <p>
+              I led technical feasibility explorations (database modeling, UI prototyping, and data wrangling)
+              for a novel InsurTech product that subsequently raised a $3mm seed round. I also evaluated data
+              and technology providers to give partnership recommendations.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" date-is="Summer 2019" id="apple">
+          <div class="position">
+            <h2 class="company"><span class="co-name">Apple</span> Engineering Project Manager Intern</h2>
+
+            <p>
+              I was an EPM in Siri Understanding, the team focused on building machine learning systems to
+              power Siri's ability to understand users. Our work lives on every Apple device.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" date-is="Fall 2018" id="nyt">
+          <div class="position">
+            <h2 class="company"><span class="co-name">New York Times</span> Software Engineer Intern</h2>
+            <p>
+              I was a developer on the
+              <a href="https://github.com/newsdev/about-int/" target="_blank">Interactive News Team (INT)</a>.
+              I worked on user-facing stories and internal newsroom tools. I built live-updating content for
+              the 2018 Midterm elections, form building functionality for non-technical journalists, and
+              reusable React components for styling consistency across the site.
+            </p>
+
+            <p><a href="./nyt.html">See the Midterm stories here</a>.</p>
+
+            <p>
+              After my internship, I created a collaboration between The New York Times and
+              <a href="https://knightlab.northwestern.edu" target="_blank"
+                >Northwestern University Knight Lab</a
+              >
+              to open source a newsroom collaboration tool called
+              <a href="https://github.com/nytimes/library" target="_blank">Library</a>. The project has more
+              than 900 stars on GitHub. I also co-led a conference session on Library at
+              <a href="https://2019.srccon.org/schedule/#_session-document-library" target="_blank"
+                >SRCCON 2019</a
+              >. The tool is still under active development.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" date-is="Summer 2018" id="github">
+          <div class="position">
+            <h2 class="company"><span class="co-name">GitHub</span> Software Engineer Intern</h2>
+
+            <p>
+              I worked with a team of three undergraduate interns to build and internally release a completely
+              new feature in 10 weeks. At the end of the summer, every GitHub employee had the feature added
+              to their GitHub account to try out. We also had the opportunity to present our work to hundreds
+              of GitHub employees.
+            </p>
+
+            <p>
+              After the summer, I was asked to stay on as a contractor to continue developing the feature. I
+              took part part in a three-day product summit where my engineering manager, a full-time engineer,
+              a product designer, a product manager and I created a roadmap for the next iterations of the
+              feature.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" date-is="Winter 2018" id="quartz">
+          <div class="position">
+            <h2 class="company"><span class="co-name">Quartz</span> Bot Studio Developer Intern</h2>
+            <p>
+              <a href="https://bots.qz.com/" target="_blank">Quartz Bot Studio</a> uses technology to offer
+              immersive news experiences on conversational platforms. I worked with
+              <a href="https://twitter.com/emilywithrow?lang=en" target="_blank">Emily Withrow</a> and
+              <a href="https://twitter.com/jkeefe?lang=en" target="_blank">John Keefe</a> to refine, build and
+              test the Quartz for Messenger bot, which made its debut to thousands at SXSW Interactive 2018.
+            </p>
+
+            <p>The bot is <em>really </em> fun. <a href="http://qz.com/m" target="_blank">Try it here</a>.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" date-is="Winter, Spring 2018" id="dtr">
+          <div class="position">
+            <h2 class="company">DTR Undergraduate Researcher</h2>
+            <p>
+              <a href="http://dtr.northwestern.edu" target="_blank">Design, Technology and Research</a> is a
+              research lab focused on a wide variety of design and technology problems including
+              human-computer interaction, social and crowd computing, learning science, artificial
+              intelligence, and design.
+            </p>
+
+            <p>
+              My research is focused on transforming professional sites across the web into learning
+              opportunities for novice developers by creating software-based process management scaffolds that
+              support self-directed study.
+            </p>
+
+            <p>
+              I have been in the class for over a year. In fall 2019 I was selected as a Computing Research
+              Association (CRA) Grace Hopper Celebration Research Scholar. In spring 2018 the project was
+              awarded a $2,000 research grant.
+            </p>
+
+            <!-- <p>I've served as the Recruiting Chair, Onboarding Chair, and Social Chair during various terms.</p> -->
+          </div>
+        </div>
+
+        <div class="timeline-item" date-is="Fall 2017; Winter, Spring 2018" id="ta">
+          <div class="position">
+            <h2 class="company">Computer Science Teaching Assistant</h2>
+            <p>
+              In Winter 2018, I served as a lead teaching assistant for EECS 111 - Fundamentals of Computer
+              Programming, the largest computer science class at Northwestern.
+            </p>
+
+            <p>
+              Along with coordinating traditional TA tasks (office hours, discussion sections, exam reviews),
+              I led an effort to create a series of videos for each main topic of the class. Within the
+              11-week quarter, we created 12 videos total. I personally wrote and recorded 5 of those videos,
+              linked below.
+            </p>
+
+            <p>
+              Learn about
+              <a href="https://drive.google.com/open?id=1XyyBq01bvpKjSDAmfdPIFxDALNcSusgE" target="_blank"
+                >structs</a
+              >,
+              <a href="https://drive.google.com/open?id=17DGkAmEMuNdXsDBIu_GZa4VM0FI7YYno" target="_blank"
+                >functions</a
+              >,
+              <a href="https://drive.google.com/open?id=15-b-b6jdcoqAh1-fGCkKkm2pjkOfQ0DS" target="_blank"
+                >lists</a
+              >,
+              <a href="https://drive.google.com/open?id=1D8KZEMaIQyYjeaKNVYi7tpyYhAhyxiBM" target="_blank"
+                >linked list recursions</a
+              >,
+              <a href="https://drive.google.com/open?id=1JdLyMFsquoAjjS_-fi8Zoggy8b-_xATc" target="_blank"
+                >foldl</a
+              >.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" date-is="Winter, Fall 2017; Fall 2018" id="nbn">
+          <div class="position">
+            <h2 class="company">North by Northwestern Interactive Developer</h2>
+            <p>
+              North by Northwestern is a campus publication that offers daily online content and a quarterly
+              print magazine. In the past few years, NBN has received 16 Mark of Excellence awards from the
+              Society of Professional Journalists.
+            </p>
+
+            <p>
+              NBN was founded as the first online news publication on campus. Since its beginnings, it has had
+              incredibly strong technologists building the completely custom site and producing interactive
+              news stories. As the Interactive editor, I led multiple contributors with widely varying
+              technical abilities to create interactive stories. I also worked with editorial staff,
+              designers, and other developers to redesign and rebuild the site.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" date-is="Winter 2018" id="sensorgrid">
+          <div class="position">
+            <h2 class="company">SensorGrid Project Developer</h2>
+            <p>
+              <a href="https://studio.knightlab.com/" target="_blank">Knight Lab Studio</a> is a project-based
+              class where groups of 4-6 undergraduate and graduate students work together to define, scope and
+              produce preliminary solutions to unexplored technology, design, and media questions. Students
+              must apply to the class and the project they are most interested in working on.
+            </p>
+
+            <p>
+              I took this class in winter 2018 and I worked on the
+              <a href="https://github.com/NUKnightLab/SensorGridAPI" target="_blank">open-source API</a> for a
+              project called <a href="https://sensorgrid.knightlab.com/" target="_blank">SensorGrid</a>.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" date-is="Summer 2017" id="kl">
+          <div class="position">
+            <h2 class="company">Knight Lab Student Fellow</h2>
+            <p>
+              <a href="https://knightlab.northwestern.edu/" target="_blank">The Knight Lab</a> is an
+              experimental studio that brings together people in from many fields to create innovative
+              journalism technology.
+            </p>
+
+            <p>
+              Our storytelling tools have been used by major publications including The Washington Post, The
+              Boston Globe, Time, CNN, Le Monde, Mashable, ESPN, Chicago Tribune, and many more. Our most
+              popular open-source tool has been used by more than 250,00 journalists and is available in more
+              than 60 languages.
+            </p>
+
+            <p>
+              I've completed various projects at the Lab. Most recently, I worked on an open-source tool
+              called <a href="https://github.com/nytimes/library" target="_blank">Library</a> in collaboration
+              with The New York Times. Before that, I worked on a tool called VideoJam, which was meant to
+              ease the social video creation process for newsrooms.
+              <a href="./knight-lab.html">Read more about VideoJam here</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
