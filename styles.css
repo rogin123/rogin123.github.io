@@ -12,52 +12,65 @@ font-family: 'Lato', sans-serif;
   --link-blue: #9cb3ff;
 }
 
-/* start Sam text*/ 
+/* fay code*/
 
-a {
-    color: inherit;
-    text-decoration: none
-}
-
-* {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box
-}
-
-.background-callout {
-    position: absolute;
-    opacity: .8;
-    max-width: 30vw
-}
-
-#first-callout {
-    top: 6%;
-    margin-left: 1rem
-}
-
-#second-callout {
-    top: 82%;
-    right: 5%
-}
-
-.container {
-    display: grid;
-    flex-direction: column;
-    grid-gap: 1rem;
-    margin: 0 5rem 5rem;
-    padding-top: 2rem;
-    justify-content: center
-}
-
-.Home_project__image-wrapper__2mkJw {
+.project-image-wrapper {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    margin-bottom: 25px
+
+    margin-bottom: 25px;
 }
- /* end sam code */
 
 
+.caption {
+  display: block;
+  max-width: 300px;
+  color: black;
+  font-family: lato;
+}
+
+.project-preview {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 300px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  margin: 10px;
+
+  opacity: 0.8;
+}
+
+.white-fill {
+  padding-left: 10px;
+  background-color: white;
+}
+
+.icon-img {
+  height: 32px;
+  width: 32px;
+
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 2px;
+
+}
+
+.spacer {
+  height: 50px;
+}
+
+#project-container {
+  margin-bottom: 10vh;
+  display: block;
+  padding-bottom: 100px;
+
+  margin-left: auto;
+}
+
+/* end fay code */
 
 .typewriter h1 {
   color: black;
@@ -71,8 +84,8 @@ a {
   padding-top: 0px;
   letter-spacing: .15em; /* Adjust as needed */
   animation: 
-    typing 3s steps(20, end),
-    blink-caret .6s step-end 8;*/
+    typing 3.5s steps(20, end),
+    blink-caret .6s step-end 3;*/
 }
 
 /* The typing effect */
