@@ -70,6 +70,15 @@ font-family: 'Lato', sans-serif;
   margin-left: auto;
 }
 
+#bio-container{
+  font-family: "Lato";
+  font-size: 1.5em;
+  margin: auto;
+  max-width: 70%;
+  text-align: justify;
+  padding-bottom: 100px;
+}
+
 /* end fay code */
 
 .typewriter h1 {
@@ -273,6 +282,16 @@ p a:visited {
   max-width: 750px;
   /* margin: auto; */
   border-left: 1px solid black;
+}
+
+#main a:link{
+  text-decoration: none;
+  color: lightblue;
+}
+
+#main a:hover{
+  text-decoration: underline;
+  color: blue;
 }
 
 #main-more {
