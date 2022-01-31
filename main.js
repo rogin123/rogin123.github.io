@@ -1,7 +1,7 @@
 $(".project-preview")
     .on("mouseover", function() {
         $(".project-preview")
-            .css("opacity", 0.5);
+            .css("opacity", 0.8);
 
         $(this)
             .css("opacity", 1.0)
