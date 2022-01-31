@@ -140,12 +140,13 @@ h2 {
 h2#current {
   margin: 2rem 0rem 0rem;
   font-family: Lato;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 h2#past {
   margin: 0rem 0rem 1rem;
   font-family: Lato;
+  font-size: 3em;
   justify-content: center;
 }
 
